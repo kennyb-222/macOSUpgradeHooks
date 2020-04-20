@@ -24,7 +24,7 @@ The customizable events are `PreUpgrade`, `PostUpgrade`, and `MigrationComplete`
 
 ### How to uninstall
 
-`sudo /bin/bash /private/var/db/.AppleUpgradeHooks.sh "uninstall"`
+`sudo /private/var/db/.AppleUpgradeHooks.sh "uninstall"`
 
 ##### Notes
 Tested on both major (10.14.x - 10.15.x) and minor (10.15 - 10.15.x) macOS release updates
