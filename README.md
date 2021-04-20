@@ -8,7 +8,7 @@ Did you know that you can have macOS run a script whenever you update or upgrade
 - Executes when the following events occur:
 	- Staged upgrade (OS upgrade/update is staged and pending restart)
 	- Upgrade completion (OS update/upgrade has finished and the loginwindow is loaded)
-	- Migration completion (automated user login in after the update/upgrade is complete)
+	- templateMigrator completed (automated user login in after the update/upgrade is complete)
 - Upgrade actions will not wait until the hook has completely executed
 
 
